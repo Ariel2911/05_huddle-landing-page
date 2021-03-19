@@ -2,3 +2,9 @@
 font-family: 'Poppins', sans-serif;
 
 font-family: 'Open Sans', sans-serif;
+
+/* font-family: 'Karla', sans-serif; */
+:root{    
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);    
+}
