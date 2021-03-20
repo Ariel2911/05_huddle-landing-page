@@ -1,3 +1,56 @@
-body{
-    background-color: red;
+body{   
+    background-image: url(/assets/image/bg-desktop.svg);
+    flex-direction: row;  
+    height: 100vh;
+    position: relative;
+    align-items: center;
+}
+
+.header{
+    width: 700px;
+    margin: 0;
+}
+.header__logo{
+    width: 200px;
+}
+
+.header__container-img{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.container{
+    width: 500px;
+    margin-top: 4rem;   
+}
+
+.main__title,
+.main__text{
+    text-align: start;
+}
+.main__title{
+    font-size: 40px;  
+}
+
+.main__text{
+    font-size: 17px;
+}
+
+.main__bottom{
+    margin-left: 0;
+    padding: 18px 0;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.footer{    
+    position: absolute;
+    bottom: -10px;
+    right: 80px;   
+}
+
+[class^="icon"]{
+    padding: 8px;
+    margin: 6px;
+    font-size: 16px;
 }
